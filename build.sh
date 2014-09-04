@@ -1,5 +1,6 @@
 #!/bin/sh
 # Dependencies
+apt-get update
 apt-get install -y gcc g++ autoconf libtool libboost-all-dev pkg-config make
 dpkg -i libdb4.8_4.8.24-1ubuntu1_i386.deb
 dpkg -i libdb4.8-dev_4.8.24-1ubuntu1_i386.deb
